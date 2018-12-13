@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1467478049131672}
+  m_IsPrefabParent: 1
+--- !u!1 &1467478049131672
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4559384494804072}
+  - component: {fileID: 114639094384711414}
+  m_Layer: 0
+  m_Name: XlamSpawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4559384494804072
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1467478049131672}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -70.70166, y: -2837.0664, z: -1786.5345}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114639094384711414
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1467478049131672}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b26935f1a42396344ab754e3d8171197, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Max_Crates: 16
+  Modify_K: 5
+  prefab:
+  - {fileID: 4471350521190044, guid: fc858bdc553557640bff96ac8d7d1eec, type: 2}
+  - {fileID: 4381240057297462, guid: 94d5210ebfac9c74482b6a0b65fde26f, type: 2}
+  - {fileID: 4699957501095202, guid: e5e808b965bb1af48a3c8c6c6b2342b1, type: 2}
+  - {fileID: 4747381520215422, guid: ba70385e10a4b2243ba38b1bb5e052aa, type: 2}
+  - {fileID: 4326945504619866, guid: 968c2cc8a10d02c44b77a6ab7ebfe668, type: 2}
+  - {fileID: 4877605599808998, guid: 3b71e2590b9cbb24bb4dbe8faafe6dfb, type: 2}
+  - {fileID: 4205031673464638, guid: 12a628ed5e0cad44d89a0d6cc5b811e3, type: 2}
+  - {fileID: 4267393280960994, guid: 714e81307f7a75c4caff7d83764b1cfb, type: 2}
+  - {fileID: 4571853113008444, guid: 2d80bb6072f68244a8944800a1f1f1f3, type: 2}
+  - {fileID: 4909526286020468, guid: 44a31e02d10764e419d1a791aafb3c29, type: 2}
+  - {fileID: 4432979119089410, guid: 6a42b9a1ff16edd44ad3338d530b8209, type: 2}
+  - {fileID: 4819278280834480, guid: df7148c67b0e5e74caa2212db151c982, type: 2}
+  spawnShape: 1
+  shapeModifiers: {x: 1, y: 1, z: 1}
+  asteroidCount: 800
+  range: 3000
+  randomRotation: 1
+  scaleRange: {x: 40, y: 40}
+  velocity: 3
+  angularVelocity: 3
+  scaleMass: 1
